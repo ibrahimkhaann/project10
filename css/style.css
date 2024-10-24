@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+#topheadercontent{
+    background: #3E3E3E;
+    padding: 25px 0;
+}
+.topheader{
+    display: flex;
+    justify-content: space-between;
+}
+.topheaderleft{
+    display: flex;
+}
+.topheaderleft p a{
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    color: #fff;
+    transition: .4s;
+}
+.topheaderleft p i{
+    font-size: 15px;
+    padding-right: 13px;
+    color: #fff;
+    
+}
+.topheaderleft h3{
+    color: #fff;
+    padding-left: 25px;
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.topheaderleft h3 i{
+    padding-right: 10px;
+}
+.topheaderleft p a:hover{
+    color: #D9AD44;
+}
+.topheaderright ul{
+    display: flex;
+
+}
+.topheaderright i{
+    padding: 0 13px;
+    color: #fff;
+    transition: .4s;
+}
+.topheaderright i:hover{
+    color:#D9AD44 ;
+}
+
+.logowithmenu{
+    justify-content: space-between;
+    display: flex;
+
+}
+.logopart{
+    padding-top: 18px;
+}
+.menupart ul li{
+    display: inline-block;
+}
+.menupart ul li a{
+    font-size: 15px;
+    font-family: "Open Sans", serif;
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+   padding:0 25px;
+   line-height: 90px;
+   transition: .4s;
+}
+.menupart ul li a:hover{
+    color:#D9AD44 ;
+}
+
+#headerimg{
+ background: url(../css/images/image.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.imgoverly{
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 245px;
+    padding-bottom: 350px;
+}
+.writingpart{
+    color:white ;
+    text-align: center;
+    margin-top: -px;
+   
+ 
+}
+.writingpart h2{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+.writingpart span{
+    color: #F8B865;
+}
+.writingpart h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.writingpart p{
+    padding: 0 290px;
+    font-family: "Open Sans", serif;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+.button a{
+    background: #F8B865;
+    padding: 20px 35px;
+    border-radius: 50px;
+    color: #827777;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    transition: .4s;
+
+}
+.button a:hover{
+    background: white;
+}
+    
+
