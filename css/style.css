@@ -106,7 +106,6 @@ h1,h2,h3,h4,h5,h6,p{
 .writingpart{
     color:white ;
     text-align: center;
-    margin-top: -px;
    
  
 }
@@ -135,14 +134,16 @@ h1,h2,h3,h4,h5,h6,p{
     background: #F8B865;
     padding: 20px 35px;
     border-radius: 50px;
-    color: #827777;
     font-size: 16px;
     font-family: "Open Sans", serif;
     transition: .4s;
+    font-weight: 600;
+    color: #fff;
 
 }
 .button a:hover{
     background: white;
+    color: #827777;
 }
     
 
