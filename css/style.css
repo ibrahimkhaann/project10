@@ -237,10 +237,575 @@ box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     color: hsla(0, 0%, 47%, 0.742);
     font-family: "Roboto Slab", serif;
     font-weight: 400;
-    font-family: "Open Sans", serif;
     line-height: 24px;
 
 }
+/* position part end  */
 
+/* cases part start  */
+.causes{
+    padding-top: 130px;
+    width: 100%;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.causes h2{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    color: #686868;
 
+}
+.causes img{
+    padding-top: 15px;
+}
+.causes h2{
+    position: relative;
+}
+.causes h2::before{
+    height: 1px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    background-color:hsla(0, 0%, 47%, 0.5);
+    top: 53px;
+    left: 408px;
+}
+.causes h2::after{
+    height: 1px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    background-color:hsla(0, 0%, 47%, 0.5);
+    top: 53px;
+    right: 419px;
+}
+.causes h3{
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    line-height: 36px;
+    color: #777777;
+}
+/* Causes part end  */
+
+/* children photo part start */
+#blogItempart{
+    padding-bottom: 100px;
+    background-color:white;
+}
+.blogItem{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.blogpart{
+    width: 30%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.blogpart img{
+width: 100%;
+ 
+}
+.blogText{
+    padding: 30px;
+}
+
+.ancorpart a{
+    font-size: 18px;
+    color: #555555;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    transition: .4s;
+}
+.ancorpart a:hover{
+    color:#F8B864;
+}
+.ancorpart p{
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    color: #777777;
+    line-height: 21px;
+    padding-top: 20px;
+}
+.doller{
+    display:flex;
+   padding-top: 20px;
     
+}
+
+.dollerboss{
+    display: flex;
+}
+.dollerboss{
+    padding-left: 81px;
+}
+.doller1{
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    color: #888888;
+
+}
+.doller2{
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    color: #888888;
+
+}
+.dollerN p{
+    font-size: 13px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #555555;
+}
+.dollerN2 p{
+ font-size: 13px;
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    color: #555555;
+}
+.dollerButton a{
+    padding:  8px 20px 7px;
+    border-radius: 50px;
+    background-color: #F8B865;
+    font-family: "Open Sans", serif;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    transition: .4s;
+}
+.dollerButton a:hover{
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+.dollerButton{
+    padding-top: 10px;
+}
+/* children photo part end */
+
+/* video  part start*/
+#videoPart{
+    position: relative;
+    padding-bottom: 145px;
+    background-color: hsla(0, 0%, 41%, 0.05);
+
+}
+.videoparent{
+   justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.videoimg{
+    width: 50%;
+}
+.video img{
+    position: absolute;
+}
+.video a img{
+    position: absolute;
+padding-top: 130px;
+padding-left: 230px;
+ 
+}
+
+.video{
+    padding-top: 100px;
+}
+.videoWrite{
+    padding-top: 158px;
+    padding-left: 645px;
+
+  
+}
+
+.write1 h1{
+   
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #555555;
+    padding: 30px 0;
+}
+.rolar{
+    width: 63px;
+    height: 1px;
+    background-color: #D99D4E;
+}
+.writebtn p{
+   padding-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    line-height: 25px;
+
+}
+.btn{
+    padding-top: 0px;
+}
+
+
+/* vidoe   part end */
+#numberpart{
+    position: relative;
+    background-color: hsla(0, 0%, 41%, 0.05);
+}
+
+
+.numberimg{
+    background: url(../css/images/1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nmberoverly{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding-top: 150px;
+   padding-bottom: 176px;
+}
+.number4{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.number4 h1{
+    color: white;
+    font-size: 72px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+   padding-right: 50px;
+
+}
+.number5{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+.num6 h3{
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+   padding-top: 40px;
+   padding-left: 10px;
+   
+}
+.num7 h3{
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+   padding-right: 50px;
+   padding-top: 40px;
+   padding-left: 73px;
+}
+.num8 h3{
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+   padding-right: 50px;
+   padding-top: 40px;
+   padding-left: 44px;
+}
+.num9 h3{
+    color: white;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+   padding-right: 50px;
+   padding-top: 40px;
+   padding-left: 10px;
+}
+.cauuse{
+  position: relative;
+  background-color: hsla(0, 0%, 41%, 0.05);
+  padding-bottom: 125px;
+}
+.causesimgpart{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.causesiconpart{
+   padding-top: 40px;
+  
+}
+
+
+.wallet i{
+    font-size: 36px;
+    padding-left: 135px;
+    color: #686868;
+   
+}
+
+.walletwrite{
+    padding-left: 31px;
+    padding-top: 26px;
+}
+.walletwrite h3{
+   color: hsla(0, 0%, 33%, 0.8);
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    padding-left: 59px;
+}
+.walletpara{
+    padding-top: 20px;
+}
+.walletpara p{
+    color: hsla(0, 0%, 33%, 0.5);
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+}
+.walletpara h4{
+    color: hsla(0, 0%, 33%, 0.5);
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    padding-left: 43px;
+    padding-top: 10px;
+    
+}
+.walletpart2{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.walletflex{
+    display: flex;
+}
+.walletflex2{
+    display: flex;
+    padding-top: 50px;
+}
+/* innocent face start  */
+
+#innocentface{
+    padding-bottom: 125px;
+}
+.innocentparent{
+    
+}
+.innocentFlex{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.innocent1{
+  width: 30%;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+.innocentimg{
+    position: relative;
+}
+.innocentimg img{
+    width: 100%;
+
+}
+
+ .innocentoverly{
+   width: 100%;
+   height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+.innocenticon a{
+ position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+font-size: 30px;
+}
+.innocent1:hover .innocentoverly{
+    visibility: visible;
+    opacity: 1;
+}
+.innocentwrite {
+   padding: 30px;
+   position: relative;
+}
+.innocentwrite p{
+    color: #777777;
+    font-size:14px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+}
+.innocentwrite2{
+    padding-top: 20px;
+    
+}
+
+.innocentwrite2 a{
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: #686868;
+    font-weight: 600;
+    transition: .4s;
+}
+.innocentwrite2 a:hover{
+    color: #F8B864;
+}
+
+.innocentread{
+    padding-top: 20px;
+}
+.innocentread a{
+font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    color:#686868;
+    font-weight: 600;
+    transition: .4s;
+    position: absolute;
+}
+.innocentread a:hover{
+    color: #F8B864;
+}
+.innocentread  img{
+    padding-top: 7px;
+    padding-left: 15px;
+    position: absolute;
+}
+.innocentread img:hover{
+    color:#F8B865;
+}
+/* innocent face end */
+
+/* about us part start  */
+
+#aboutUspart{
+    padding-bottom: 300px;
+background-color: #2E2E2E;
+position: relative;
+}
+.aboutusparent{
+padding-top: 100px;
+}
+.aboutFlex{
+    display: flex;
+    justify-content:space-between;
+}
+.aboutItem{
+width: 25%;
+
+}
+.aboutWritePart h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+.aboutwrite1{
+    padding-top: 31px;
+}
+.aboutwrite1 p{
+color: #aaaaaa;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.abouticonpart{
+    padding-right: 5px;
+}
+.abouticonpart ul{
+    display: flex;
+}
+.abouticonpart i{
+    padding: 20px 13px;
+    color: #686868;
+    font-size: 26px;
+    transition: .4s;
+}
+.abouticonpart i:hover{
+    color:#ffffff;
+}
+.aboutWritepart{
+    width: 100%;
+}
+
+.writeabout{
+    padding-left: 40px;
+}
+.writeabout h2{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+
+.aboutmenu{
+    padding-top: 24px;
+    line-height: 40px;
+}
+.aboutmenu ul li a{
+    color:#aaaaaa;
+    font-size: 14px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    transition: .4s;
+}
+.aboutmenu ul li a:hover{
+color: white;
+}
+.aboutwidth{
+   padding-bottom: 100px;
+}
+.paddingap{
+    padding-top: 40px;
+}
+.aboutFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutitem{
+    width: 30%;
+}
+.aboutimg{
+    position: relative;
+}
+.aboutimg img{
+    width: 100%;
+}
+.aboutimgoverly{
+    height: 97%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    left: 0;
+    top: 0;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+
+}
+.iconimg a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.aboutitem:hover .aboutimgoverly{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* about us part start  */
